@@ -1,0 +1,79 @@
+/*Style css sheet*/
+h3{
+	/*font-weight = bold;*/ 
+	text-align: center;
+	font-size: 100%
+	color: black; 
+}
+
+li{
+	text-align: left; 
+	color: blue; 
+	
+}
+
+ul li:before{
+		content: "\00BB\0020"; /*Use right arrow */
+	}
+	
+ul {
+	list-style: none; /*Remove default list styling*/
+}
+
+a{
+	color: #808080; /*html-color-codes.info*/
+}
+
+p{
+	color: #808080;
+}
+
+.navbar p{
+	color: white;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+.bg{
+	width = 100%;
+	z-index: 0;
+}
+
+.navbar{
+	background-color: #003399;
+	/*margin: 30px auto;*/
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 40px;
+	position: relative;
+}
+
+#slideshow{
+	/*margin: 40px auto;*/ 
+	margin-top: 10px;
+	margin-bottom:40px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	height: 240px;
+	padding: 10px;
+}
+/*#slideshow{
+	margin: 50px auto;
+	position: relative;
+	width:240px;
+	height: 240px;
+	padding: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	
+}*/
+
+#slideshow > div {
+	position: absolute; 
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
