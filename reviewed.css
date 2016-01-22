@@ -1,0 +1,103 @@
+/* reviewed css*/
+/*Navbar styling */
+.navbar ul{
+	list-style: none;/*Remove default styling*/
+}
+
+.navbar li{
+	display: inline;
+	list-style-type: none;
+	text-align: center; 
+}
+
+.navbar li a{
+	color: white;
+	font-size:100%;
+}
+
+.navbar li:after{
+	content: "\0009\007C";
+	/*content: "\007C";*/
+	color: white; 
+}
+
+.navbar{
+	background-color: #003399;
+	margin-top: 20px;
+}
+/*Image scroller styling */
+#slideshow{
+	/*margin: 40px auto;*/ 
+	margin-top: 10px;
+	margin-bottom:40px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	height: 100px;
+	width: 1000px;
+	padding: 10px;
+}
+
+#slideshow > div {
+	position: absolute; 
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+/* First three styling
+.containeri img{
+	margin-top: 300px;
+	
+}*/
+
+/*Styling Ordering, Marketing and Training Info section and beyond.*/
+#containerid {
+	/*margin-top: 290px; */
+	margin-top: 200px;
+}
+
+h3{
+	font-weight: bold; 
+	text-align:left; 
+	font-size: 100%;
+	color: #696969;
+}
+
+li{
+	text-align: left; 
+	color: blue;
+}
+
+ul{
+	list-style: none; 
+}
+
+ul li:before{
+	content: "\00BB\0020"; /*Use right arrow*/
+}
+
+a{
+	color: #808080; 
+}
+
+p{
+	color: #808080;
+}
+
+.container2 ul li:before{
+	content: "\0020";
+}
+
+
+/*Footer styling: Change background color of footer?*/
+.footerclass ul li:before{
+	content: "\0009";
+}
+
+.footerclass li{
+	display: inline;
+	color: gray; 
+	font-size:90%;
+}
+
