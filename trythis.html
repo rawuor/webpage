@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>BradyID.com| Shop online for industrial printers, Labels, Signs, Lockout and more! - BRADY - https://bradyid.com/</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
+  <link rel = "stylesheet" type = "text/css" href = "reviewed.css">
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <script>
+	$(function(){
+		//JQuery script for image slideshow
+		$("#slideshow > div:gt(0)").hide();
+
+		setInterval(function() { 
+			$('#slideshow > div:first')
+			.fadeOut(1000)
+			.next()
+			.fadeIn(2000)
+			.end()
+			.appendTo('#slideshow');
+		},  3000);
+	});
+	
+</script>
+ 
+</head>
+<body>
+	<!--Container-->
+	<div class = "container">
+		<div class = "row">
+			<header class = "small-12 columns">
+				
+				<div>
+					<a href = "/"><img src = "https://www.bradyid.com/~/media/brady/americas/logo/brady-logo-blue-tall.jpg?h=50&la=en-US&w=192" width = "192" height = "50"></a>
+				</div>
+				<!--Navigation bar: Could use the 12 grid model here. -->
+				<div class = "navbar" id = "navlist">
+					<ul>
+						<li><a href = "#">Products</a></li>
+						<li><a href = "#">Markets</a></li>
+						<li><a href = "#">Standards and Compliance</a></li>
+						<li><a href = "#">Customer Support</a></li>
+						<li><a href = "#">Technical Support</a></li>
+						<li><a href = "#">Client Services</a></li>
+						<li><a href = "#">News and Events</a></li>
+					</ul>
+				</div>
+			</header>
+		</div>
+		<div class = "row">
+			<div class = "small-12 columns">
+				<p> IMAGE SCROLLER</p>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "small-12 columns">
+				<p>FIRST LAYER</p>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "small-12 columns">
+				<p>SECOND LAYER</p>
+			</div>
+		</div>
+	</div>
+	
+
+</body>
+</html>
