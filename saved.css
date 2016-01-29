@@ -1,0 +1,207 @@
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+/*Lets see where this takes us!*/
+.container ul {
+    list-style: none; /*Remove default styling*/
+    margin-top:10px;
+}
+
+.container li {
+display: inline;
+list-style-type: none;
+text-align:center;
+}
+
+ .container li a {  
+    color:white;
+    font-size:120%;
+    font-weight:300;
+}
+
+.navbarclass {
+    /*background-color:#003399;*/
+    /*margin-top:100px;*/
+    padding-left:0px;
+    background-color: #002776; 
+    width:100%;
+    height: 50px;
+}
+
+.navbarclass img {
+        padding-top:12px;
+ }
+
+.navbarclass ul {
+  white-space: nowrap;
+}
+/*Slideshow stuff*/
+#slideshow {
+    /*margin: 40px auto;*/ 
+	margin-top: 10px;
+	margin-bottom:40px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	height: 100px;
+	width: 1000px;
+	padding: 10px;
+}
+
+#slideshow > div {
+    position: absolute; 
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#containerid {
+    margin-top: 10px; 
+}
+#welcomeid {
+    margin-top: 10px;
+}
+body {
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-weight: bold; 
+    text-align:center; 
+    font-size:100%;
+    /*color:#696969;*/
+    margin-top: 10px; 
+}
+
+li {
+    text-align:center;
+}
+
+ul {
+    list-style: none;
+}
+p {
+    text-align:center;
+}
+
+#navid li a{
+    /*font-size:120%;*/
+   
+}
+
+
+.fa-user {
+    color: white;
+}
+
+.fa-globe {
+    color: white; 
+}
+
+#boxid {
+    height: 65px;
+    /*background-color:#c1bfbf;*/
+}
+
+.container-4 input#search {
+    float: right; 
+    padding-right: 15px;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.top-bar-section ul li{
+    background: #002776 !important;
+    position:relative; 
+    display:inline;
+}
+
+.top-bar-section ul li > a {
+    background: #002776 !important;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Roboto,Arial, sans-serif !important; 
+    display:inline-block;
+    
+}
+
+.top-bar {
+    background-color: #002776 !important;
+}
+
+.top-bar .title-area li h1 a{
+    background-color: #002776 !important;     
+}
+.top-bar-section ul {
+    position:relative;
+    display:inline-block;
+    white-space:nowrap;
+}
+
+.top-bar-section ul.active {
+    display:none;
+    }
+
+.top-bar.toggle-topbar a {
+    color: #fff !important; 
+}
+
+#signid li a {
+    /*padding-right: 20px;*/
+    white-space:nowrap;
+}
+
+.top-bar-section .left {
+    text-align:center;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*Deleted stuff from former navbar*/
+.navbarclass {
+    /*background-color:#003399;*/
+    /*margin-top:100px;*/
+    padding-left:0px;
+    background-color: #002776; 
+    width:100%;
+    height: 50px;
+}
+
+.navbarclass img {
+        padding-top:12px;
+ }
+
+.navbarclass ul {
+  white-space: nowrap;
+}
+/*Slideshow stuff*/
+#slideshow {
+    /*margin: 40px auto;*/ 
+	margin-top: 10px;
+	margin-bottom:40px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	height: 100px;
+	width: 1000px;
+	padding: 10px;
+}
+
+#slideshow > div {
+    position: absolute; 
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
