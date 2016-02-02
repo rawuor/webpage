@@ -1,0 +1,144 @@
+/*Changes the active menu item from default black to a gradient*/
+/********************************************************/
+/*Search bar styling*/
+/*http://webdesign.tutsplus.com/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069*/
+.container-1{
+    width:300px;
+    float: right;
+    vertical-align:middle;
+    white-space:nowrap;
+    position: relative;
+}
+
+.container-2 .search_field{
+    width:100%;
+}
+.container-1 input#search { 
+    width:400px;
+    height:40px;
+    /*background:#fff;*/
+    border:none;
+    font-size:10pt;
+    color:#63717f;
+    padding-right: 15px;
+    margin: 10px 10px 0 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+ /*Style the Search text*/
+.container-1 input#search::-webkit-input-placeholder {
+   color:#65737e; 
+}
+
+.container-1 input#search:-moz-placeholder {
+    color:#65737e; /*Firefox 18- */
+}
+
+.container-1 input#search::-moz-placeholder {
+    /*Firefox19+*/
+    color:#65737e;
+}
+
+container-1 input#search:-ms-input-placeholder {
+    color:#65737e;
+}
+/*Style the icon*/
+.container-1 .icon {
+    position:absolute;
+    top:50%;
+    margin-left:240px;
+    margin-top:-7px;
+    z-index:1;
+    color:#4f5b66;
+}
+/*Reconsider this one*/
+#boxid {
+    height: 65px;
+    /*background-color:#c1bfbf;*/
+}
+
+
+/********************************************************/
+/*Container styling*/
+.container ul {
+    list-style: none; /*Remove default styling*/
+    margin-top:10px;
+}
+
+.container li {
+display: inline;
+list-style-type: none;
+text-align:center;
+}
+
+.container li a {  
+    color:white;
+    font-size:120%;
+    font-weight:300;
+}
+
+#containerid {
+    margin-top: 10px; 
+}
+#welcomeid {
+    margin-top: 10px;
+}
+body {
+    background:#fff;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-weight: bold; 
+    text-align:center; 
+    font-size:100%;
+    /*color:#696969;*/
+    margin-top: 10px; 
+}
+
+
+
+ul {
+    list-style: none;
+}
+p {
+    text-align:center;
+}
+
+.fa-user {
+    color: white;
+}
+
+.fa-globe {
+    color: white; 
+}
+
+/*Footer styling*/
+footer ul li {
+    text-align:center;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/*To do today: Make fonts readable and centered. This will finish the homepage design*/
+/*Also remove the black background around the menu. Override default Foundation setting on menu - Done! Finally!! */
+/*Edit search bar as well. Make it visible. Change background? - Done!*/
